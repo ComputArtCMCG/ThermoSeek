@@ -4,6 +4,8 @@ ThermoSeek is a publicly accessible web platform designed to facilitate the expl
 
 🔗 Web Application: https://protein.org.cn/thermoseek
 
+![image](ThemoSeek_homepage.jpeg)
+
 🔍 Features
 Sequence Alignment
 Rapid similarity search using BLAST+ and MMseqs2 against curated thermophilic protein datasets.
