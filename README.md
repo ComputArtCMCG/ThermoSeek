@@ -34,7 +34,6 @@ NCBI Protein Database(https://www.ncbi.nlm.nih.gov/)
 
 AlphaFold Protein Structure Database(https://alphafold.ebi.ac.uk/)
 
-All curated datasets are accessible via the ThermoSeek web interface.
 
 ## 🛠️ Software & Tools
 ThermoSeek is powered by the following open-source tools:
