@@ -110,14 +110,29 @@ Download results as hit list or Foldseek HTML viewer (⑦)
 
 
 
-📦 Example Case
-An example analysis of PETase is provided in this repository:
+## 📦 Example Case: PETase Structural and Sequence Analysis
+This repository includes a complete example from our publication, illustrating the use of ThermoSeek for motif search, fold search, and sequence alignment on PETase, a plastic-degrading enzyme.
 
-input/ – Input PDB/FASTA files and motif specification
+📁 Folder contents:
 
-output/ – Result CSVs and alignment files generated from ThermoSeek
+input/ – Contains raw input files used in the case study, including:
 
-You can use these as templates for your own runs.
+The original PDB structure of PETase
+
+Associated FASTA sequence files
+
+Manually defined motif residue specifications
+
+output/ – Contains unprocessed raw outputs directly generated from ThermoSeek, including:
+
+Result tables (e.g., motif search .csv, alignment hit lists)
+
+Foldseek output files and optional HTML visualizations
+
+BLAST/MMseqs2 alignment results
+
+🧾 These files represent real data from the published PETase case study and are provided as-is, without post-processing.
+They serve as a reference template for users to prepare input files and interpret output formats for their own protein analysis tasks using ThermoSeek.
 
 ## 📁 Downloadable Datasets
 Dataset files used in the Sequence Alignment and Fold Search modules, generated with BLAST+, MMseqs2, and Foldseek, are freely available for local use:
