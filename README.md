@@ -49,6 +49,75 @@ Foldseek – Structural similarity search Foldseek (https://github.com/steinegge
 
 PyScoMotif – Motif detection in protein sequences (https://github.com/3BioCompBio/pyScoMotif)
 
+## 🧪 Tutorial: How to Use ThermoSeek Modules
+ThermoSeek provides three major modules for exploring proteins from thermophilic and cryophilic species:
+Motif Search · Fold Search · Sequence Alignment
+
+Each module supports interactive querying and downloadable results. Below are step-by-step instructions with reference to the screenshots.
+
+##🔹 1. Motif Search
+This module helps you identify similar structural motifs in thermophilic and cryophilic proteins.
+
+![image](motif_help.png)
+
+Steps:
+
+Upload PDB file (or fetch by PDB ID) (①②)
+
+Specify motif residues as ChainID_ResID, e.g., A160,A206,A237 (③)
+
+Choose database: Thermophilic, Hyperthermophilic, Psychrophilic, Cryophilic (④)
+
+Submit and get job ID (⑤⑥)
+
+View results: motif alignments, RMSD, Uniprot IDs (⑦⑧⑨)
+
+Click Download Result .csv to export full list (⑩)
+
+## 🔹 2. Sequence Alignment
+This module supports sequence-level homology search using BLAST or MMseqs2.
+
+![image](seq_help.png)
+
+Steps:
+
+Paste sequence or upload FASTA file (①③)
+
+Select database: Thermophilic & Hyperthermophilic or Cryophilic & Psychrophilic (②)
+
+Choose alignment tool: BLAST or MMseqs2 (④)
+
+View alignment hits with score, E-value, and Uniprot ID (⑤⑥)
+
+Download hit list or pairwise alignment for analysis (⑦)
+
+## 🔹 3. Fold Search
+This module allows you to find structural homologs of your protein based on whole-protein fold similarity using Foldseek.
+
+![image](fold_help.png)
+
+Steps:
+
+Upload PDB file or input PDB ID (①)
+
+Specify chain ID and target database (②③)
+
+Choose alignment mode (3Di+AA recommended) and speed (④)
+
+View results: fold alignment visualization, TM-score, E-value, Uniprot ID (⑤⑥)
+
+Download results as hit list or Foldseek HTML viewer (⑦)
+
+
+
+📦 Example Case
+An example analysis of PETase is provided in this repository:
+
+input/ – Input PDB/FASTA files and motif specification
+
+output/ – Result CSVs and alignment files generated from ThermoSeek
+
+You can use these as templates for your own runs.
 
 ## 📁 Downloadable Datasets
 Dataset files used in the Sequence Alignment and Fold Search modules, generated with BLAST+, MMseqs2, and Foldseek, are freely available for local use:
