@@ -60,7 +60,7 @@ This module helps you identify similar structural motifs in thermophilic and cry
 
 ![image](motif_help.png)
 
-Steps:
+## Steps:
 
 Upload PDB file (or fetch by PDB ID) (①②)
 
@@ -79,7 +79,7 @@ This module supports sequence-level homology search using BLAST or MMseqs2.
 
 ![image](seq_help.png)
 
-Steps:
+## Steps:
 
 Paste sequence or upload FASTA file (①③)
 
@@ -96,7 +96,7 @@ This module allows you to find structural homologs of your protein based on whol
 
 ![image](fold_help.png)
 
-Steps:
+## Steps:
 
 Upload PDB file or input PDB ID (①)
 
