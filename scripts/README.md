@@ -1,10 +1,27 @@
+📁 Folder Contents: scripts/
+The scripts/ directory provides example command-line scripts to assist users in performing local protein sequence alignment and structure-based fold search using ThermoSeek’s precompiled databases.
 
-📁 Folder contents:
+These scripts are designed to replicate the functionalities of the ThermoSeek web server, enabling offline analysis on your own system.
 
-The scripts/ directory contains example command-line scripts to help users perform local sequence alignment and structural search using the downloaded databases.
- 
-Dataset files used in the Sequence Alignment and Fold Search modules, generated with BLAST+, MMseqs2, and Foldseek, are freely available for local use:
+🧰 Included Tools
+The scripts support the following tools:
 
-🔗 Zenodo DOI:  http://doi.org/10.5281/zenodo.15362794
+run_blast.sh — for sequence alignment
 
-These files can be used to perform offline searches for thermophilic protein sequence and structure analysis.
+run_mmseqs2.sh — for fast and scalable sequence alignment
+
+run_foldseek_query.sh — for 3D fold comparison across protein structures
+
+run_pymotif_query.sh  — for motif searching in protein structures
+Each script is accompanied by instructions or inline comments for easy customization.
+
+📦 Required Databases
+All supporting databases for local use (including sequence and structure indices) can be downloaded from:
+
+🔗 Zenodo DOI: 10.5281/zenodo.15362794
+
+These datasets are the same as those used in the ThermoSeek web platform and allow reproducible analysis in standalone environments.
+
+🧪 Use Case
+These scripts are compatible with the example PETase dataset provided in the input/ and output/ folders. You may use those files to test and validate the script workflows before applying them to your own queries.
+
