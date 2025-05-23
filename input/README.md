@@ -1,12 +1,17 @@
- Example Case: PETase Structural and Sequence Analysis
-This repository includes a complete example from our publication, illustrating the use of ThermoSeek for motif search, fold search, and sequence alignment on PETase, a plastic-degrading enzyme.
+This folder contains the original input files used in the PETase case study, as presented in the ThermoSeek publication. These files were submitted to the ThermoSeek webserver to perform:
 
-📁 Folder contents:
+Motif Search
 
-input/ – Contains raw input files used in the case study, including:
+Fold Search
 
-The original PDB structure of PETase
+Sequence Alignment
 
-Associated FASTA sequence files
+🧬 Contents
+PETase_WT_5XJH.pdb
+The original 3D structure of PETase, downloaded from the Protein Data Bank (PDB) with PDB ID: 5XJH.
 
-Manually defined motif residue specifications
+PETase_WT.fasta
+The primary amino acid sequence of PETase in FASTA format, used for sequence alignment tasks.
+
+5XJH_160S-206D-237H_motif.pdb
+A pdb file containing manually selected motif residues in the format ChainID_ResID, e.g., A160S,A206D,A237H, used in the motif search module.
