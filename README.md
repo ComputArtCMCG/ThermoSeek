@@ -80,7 +80,7 @@ This module allows you to find structural homologs of your protein based on whol
 
 
 
-## 📦 Example Case: PETase Structural and Sequence Analysis
+## 📦 Test Case: PETase Structural and Sequence Analysis
 The input and output directories contain the input and output files of the PETase test case in our publication.
 
 ### input/ – Contains raw input files used in the case study, including:
