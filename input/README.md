@@ -1,6 +1,6 @@
 This folder contains the original input files used in the PETase case study, as presented in the ThermoSeek publication. These files were submitted to the ThermoSeek webserver to perform:
 
-Motif Search
+#Motif Search
 
 Fold Search
 
