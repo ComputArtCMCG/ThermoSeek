@@ -25,60 +25,11 @@ Motif Search · Fold Search · Sequence Alignment
 
 Each module supports interactive querying and downloadable results. Below are step-by-step instructions with reference to the screenshots.
 
-### 🔹 1. Motif Search
-This module helps you identify similar structural motifs in thermophilic and cryophilic proteins.
+### 🔹 1. Motif Search [link](motif_tutorial.md)
 
-![image](motif_help.png)
+### 🔹 2. Sequence Alignment [link](seq_tutorial.md)
 
-#### Steps:
-
-1. Upload PDB file (or fetch by PDB ID) (①②)
-
-2. Specify motif residues as ChainID_ResID, e.g., A160,A206,A237 (③)
-
-3. Choose database: Thermophilic, Hyperthermophilic, Psychrophilic, Cryophilic (④)
-
-4. Submit and get job ID (⑤⑥)
-
-5. View results: motif alignments, RMSD, Uniprot IDs (⑦⑧⑨)
-
-6. Click Download Result .csv to export full list (⑩)
-
-### 🔹 2. Sequence Alignment
-This module supports sequence-level homology search using BLAST or MMseqs2.
-
-![image](seq_help.png)
-
-#### Steps:
-
-1. Paste sequence or upload FASTA file (①③)
-
-2. Select database: Thermophilic & Hyperthermophilic or Cryophilic & Psychrophilic (②)
-
-3. Choose alignment tool: BLAST or MMseqs2 (④)
-
-4. View alignment hits with score, E-value, and Uniprot ID (⑤⑥)
-
-5. Download hit list or pairwise alignment for analysis (⑦)
-
-### 🔹 3. Fold Search
-This module allows you to find structural homologs of your protein based on whole-protein fold similarity using Foldseek.
-
-![image](fold_help.png)
-
-#### Steps:
-
-1. Upload PDB file or input PDB ID (①)
-
-2. Specify chain ID and target database (②③)
-
-3. Choose alignment mode (3Di+AA recommended) and speed (④)
-
-4. View results: fold alignment visualization, TM-score, E-value, Uniprot ID (⑤⑥)
-
-5. Download results as hit list or Foldseek HTML viewer (⑦)
-
-
+### 🔹 3. Fold Search [link](fold_tutorial.md)
 
 ## 📦 Test Case: PETase Structural and Sequence Analysis
 The input and output directories contain the input and output files of the PETase test case in our publication.
