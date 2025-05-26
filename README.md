@@ -25,11 +25,11 @@ Motif Search · Fold Search · Sequence Alignment
 
 Each module supports interactive querying and downloadable results. Below are step-by-step instructions with reference to the screenshots.
 
-### 🔹 Motif Search [link](motif_tutorial.md)
+#### 🔹 Motif Search [link](motif_tutorial.md)
 
-### 🔹 Sequence Alignment [link](seq_tutorial.md)
+#### 🔹 Sequence Alignment [link](seq_tutorial.md)
 
-### 🔹 Fold Search [link](fold_tutorial.md)
+#### 🔹 Fold Search [link](fold_tutorial.md)
 
 ## 📦 Test Case: PETase Structural and Sequence Analysis
 The input and output directories contain the input and output files of the PETase test case in our publication.
@@ -50,7 +50,7 @@ The input and output directories contain the input and output files of the PETas
 
 - BLAST/MMseqs2 alignment results
 
-Please check the README.md file in the input and output directories for more details.
+Please check the README.md file in the [input](input/README.md) and [output](output/README.md) directories for more details.
 
 ## 📁 Downloadable Datasets
 Dataset files used in the Sequence Alignment and Fold Search modules, generated with BLAST+, MMseqs2, and Foldseek, are freely available for local use:
