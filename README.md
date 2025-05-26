@@ -97,10 +97,9 @@ The input and output directories contain the input and output files of the PETas
 
 - Foldseek output files and optional HTML visualizations
 
-### BLAST/MMseqs2 alignment results
+- BLAST/MMseqs2 alignment results
 
-🧾 These files represent real data from the published PETase case study and are provided as-is, without post-processing.
-They serve as a reference template for users to prepare input files and interpret output formats for their own protein analysis tasks using ThermoSeek.
+Please check the README.md file in the input and output directories for more details.
 
 ## 📁 Downloadable Datasets
 Dataset files used in the Sequence Alignment and Fold Search modules, generated with BLAST+, MMseqs2, and Foldseek, are freely available for local use:
