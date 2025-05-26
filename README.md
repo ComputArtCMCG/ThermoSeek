@@ -25,11 +25,11 @@ Motif Search · Fold Search · Sequence Alignment
 
 Each module supports interactive querying and downloadable results. Below are step-by-step instructions with reference to the screenshots.
 
-### 🔹 1. Motif Search [link](motif_tutorial.md)
+### 🔹 Motif Search [link](motif_tutorial.md)
 
-### 🔹 2. Sequence Alignment [link](seq_tutorial.md)
+### 🔹 Sequence Alignment [link](seq_tutorial.md)
 
-### 🔹 3. Fold Search [link](fold_tutorial.md)
+### 🔹 Fold Search [link](fold_tutorial.md)
 
 ## 📦 Test Case: PETase Structural and Sequence Analysis
 The input and output directories contain the input and output files of the PETase test case in our publication.
