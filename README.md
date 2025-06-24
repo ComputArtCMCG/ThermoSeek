@@ -63,3 +63,5 @@ The [**scripts/**](scripts/README.md) directory contains example command-line sc
 
 ⚠️ Note: Due to the large size of the motif database, it is currently not available for download. However, users can fully access and utilize the motif search functionality through the web application.
 
+## Reference
+[Z Chen, H Wang, R Wang, and Y Qi, J. Chem. Inf. Model. 2025, 65, 12, 5827–5838](https://pubs.acs.org/doi/10.1021/acs.jcim.5c00010)
